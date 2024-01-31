@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Image Gallary</title>
+    <style>
+        .comedians {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 250px);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .Parth {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .Sahil {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .Yalla {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .Ashish {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .Harsh {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        .Piyush {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="comedians">
+        <div class="Parth">
+            <img src="https://i.ytimg.com/vi/CYZw0xplPfA/maxresdefault.jpg" alt="image-01" />
+        </div>
+        <div class="Sahil">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.A8qTSU_Zm3wBWjHzX8n5AQHaEK&pid=Api&P=0&h=180" alt="image-02" />
+
+        </div>
+        <div class="Yalla">
+            <img src="https://akm-img-a-in.tosshub.com/sites/dailyo/fb_feed_images/story_image/201804/kapil-sharma-fb_041118094138.jpg"
+                alt="image-03" />
+        </div>
+        <div class="Ashish">
+            <img src="https://static.toiimg.com/photo/imgsize-194578,msid-77524570/77524570.jpg" alt="">
+        </div>
+        <div class="Harsh">
+            <img src="https://im.indiatimes.in/content/2019/Mar/after_spending_three_months_in_jail_rajpal_yadav_says_people_misused_his_trust_1553752721.png"
+                alt="img-5" />
+        </div>
+        <div class="Piyush">
+            <img src="https://filmfare.wwmindia.com/content/2016/May/paresh_1464614885.jpg" alt="image-6" />
+        </div>
+    </div>
+</body> 
+
+</html>

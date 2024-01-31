@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 10px;
+        }
+
+        .box {
+            background-color: bisque;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            color: black;
+            font-size: 170%;
+        }
+
+        .boxParth {
+            grid-column: 1 / 3;
+            grid-row: 1;
+
+           
+        }
+
+        .boxYalla {
+            grid-column: 3;
+            grid-row: 1 / 3;
+        }
+
+        .boxSoondy {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .boxcoders {
+            grid-column: 2;
+            grid-row: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box a">Parth</div>
+        <div class="box box b">Yalla</div>
+        <div class="box box c">Soondy</div>
+        <div class="box box d">Coders</div>
+    </div>
+</body>
+
+</html>
